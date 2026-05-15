@@ -17,17 +17,56 @@ export default function HardGame() {
   const [currentTip, setCurrentTip] = useState<{ title: string; desc: string } | null>(null);
 
   const beautyTips: Record<string, { title: string; desc: string }> = {
-    "💄": { title: "Mascara Tip", desc: "Wiggle wand for volume." },
-    "💅": { title: "Nail Tip", desc: "Use cuticle oil daily." },
-    "🪞": { title: "Skin Tip", desc: "Moisturize before makeup." },
-    "💋": { title: "Lip Tip", desc: "Exfoliate lips before lipstick." },
-    "👁️": { title: "Eye Tip", desc: "Use primer for long-lasting shadow." },
-    "🧴": { title: "Skincare Tip", desc: "Always apply SPF." },
-    "💍": { title: "Jewelry Tip", desc: "Keep accessories minimal." },
-    "👛": { title: "Style Tip", desc: "Match bag with outfit tone." },
-    "🧼": { title: "Clean Skin Tip", desc: "Wash face before sleeping." },
-    "🌸": { title: "Fresh Look Tip", desc: "Use light fragrance for freshness." },
-  };
+  "/icons/heart.svg": {
+    title: "Mascara Tip",
+    desc: "Wiggle wand for volume.",
+  },
+
+  "/icons/smiley.svg": {
+    title: "Nail Tip",
+    desc: "Use cuticle oil daily.",
+  },
+
+  "/icons/eye.svg": {
+    title: "Eye Tip",
+    desc: "Use primer for long-lasting shadow.",
+  },
+
+  "/icons/circle.svg": {
+    title: "Skin Tip",
+    desc: "Moisturize before makeup.",
+  },
+
+  "/icons/paint.svg": {
+    title: "Lip Tip",
+    desc: "Exfoliate lips before lipstick.",
+  },
+
+  "/icons/star.svg": {
+    title: "Style Tip",
+    desc: "Match bag with outfit tone.",
+  },
+
+  "/icons/brush.svg": {
+    title: "Beauty Brush Tip",
+    desc: "Clean brushes weekly.",
+  },
+
+  "/icons/sparkle.svg": {
+    title: "Skincare Tip",
+    desc: "Always apply SPF.",
+  },
+
+  "/icons/sun.svg": {
+    title: "Fresh Look Tip",
+    desc: "Use sunscreen daily.",
+  },
+
+  "/icons/moon.svg": {
+    title: "Night Care Tip",
+    desc: "Remove makeup before sleeping.",
+  },
+};
 
   const initialCards = [
     "/icons/heart.svg",
