@@ -19,52 +19,52 @@ export default function HardGame() {
   const beautyTips: Record<string, { title: string; desc: string }> = {
   "/icons/heart.svg": {
     title: "Mascara Tip",
-    desc: "Wiggle wand for volume.",
+    desc: "Replace mascara every 3–6 months to protect your eyes.",
   },
 
   "/icons/smiley.svg": {
     title: "Nail Tip",
-    desc: "Use cuticle oil daily.",
+    desc: "Apply cuticle oil daily to keep your nails healthy and strong.",
   },
 
   "/icons/eye.svg": {
     title: "Eye Tip",
-    desc: "Use primer for long-lasting shadow.",
+    desc: "Replace mascara every 3–6 months to protect your eyes.",
   },
 
   "/icons/circle.svg": {
     title: "Skin Tip",
-    desc: "Moisturize before makeup.",
+    desc: "Blend foundation into your neck for a seamless look.",
   },
 
   "/icons/paint.svg": {
     title: "Lip Tip",
-    desc: "Exfoliate lips before lipstick.",
+    desc: "Exfoliate your lips before applying matte lipstick.",
   },
 
   "/icons/star.svg": {
     title: "Style Tip",
-    desc: "Match bag with outfit tone.",
+    desc: "Confidence is the most important beauty-essential.",
   },
 
   "/icons/brush.svg": {
     title: "Beauty Brush Tip",
-    desc: "Clean brushes weekly.",
+    desc: "Wash your makeup brushes once a week to keep out bacteria.",
   },
 
   "/icons/sparkle.svg": {
     title: "Skincare Tip",
-    desc: "Always apply SPF.",
+    desc: "Always patch test new skincare or makeup products.",
   },
 
   "/icons/sun.svg": {
     title: "Fresh Look Tip",
-    desc: "Use sunscreen daily.",
+    desc: "Use setting spray to keep makeup fresh all day.",
   },
 
   "/icons/moon.svg": {
     title: "Night Care Tip",
-    desc: "Remove makeup before sleeping.",
+    desc: "Never sleep with makeup on—your skin repairs itself overnight.",
   },
 };
 

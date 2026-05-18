@@ -18,12 +18,12 @@ export default function MediumGame() {
   const beautyTips: Record<string, { title: string; desc: string }> = {
   "/icons/heart.svg": {
     title: "Mascara Tip",
-    desc: "Wiggle wand for volume.",
+    desc: "Replace mascara every 3–6 months to protect your eyes.",
   },
 
   "/icons/smiley.svg": {
     title: "Nail Tip",
-    desc: "Use cuticle oil daily.",
+    desc: "Use cuticle oil daily .",
   },
 
   "/icons/eye.svg": {
@@ -33,27 +33,27 @@ export default function MediumGame() {
 
   "/icons/circle.svg": {
     title: "Skin Tip",
-    desc: "Moisturize before makeup.",
+    desc: "Blend foundation into your neck for a seamless look.",
   },
 
   "/icons/paint.svg": {
     title: "Lip Tip",
-    desc: "Exfoliate lips before lipstick.",
+    desc: "Exfoliate your lips before applying matte lipstick.",
   },
 
   "/icons/sparkle.svg": {
     title: "Skincare Tip",
-    desc: "Always apply SPF.",
+    desc: "Always patch test new skincare or makeup products.",
   },
 
   "/icons/brush.svg": {
     title: "Beauty Brush Tip",
-    desc: "Clean brushes weekly.",
+    desc: "Wash your makeup brushes once a week to keep out bacteria.",
   },
 
   "/icons/star.svg": {
     title: "Style Tip",
-    desc: "Match accessories with outfit tone.",
+    desc: "Confidence is the most important beauty-essential.",
   },
 };
 

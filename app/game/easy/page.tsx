@@ -17,16 +17,16 @@ export default function EasyGame() {
 
   const beautyTips: Record<string, { title: string; desc: string }> = {
     "/icons/smiley.svg": {
-      title: "Mascara Pro Tip",
-      desc: "Wiggle the mascara wand...",
+      title: "Skin Pro Tip",
+      desc: "Always apply your makeup on clean, moisturized skin for a flawless finish.",
     },
     "/icons/eye.svg": {
       title: "Nail Care Tip",
-      desc: "Apply cuticle oil daily...",
+      desc: "Apply cuticle oil daily to keep your nails healthy and strong.",
     },
     "/icons/heart.svg": {
       title: "Skin Glow Tip",
-      desc: "Cleanse and moisturize...",
+      desc: "Hydrated skin makes every makeup product look better.",
     },
   };
 
