@@ -37,8 +37,27 @@ function Card({ icon, title, desc, color }: CardProps) {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#f2b4a9] via-[#e48f86] to-[#c63d3d] text-white px-4 py-10 sm:py-12 md:py-16">
-      
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#f2b4a9] via-[#e48f86] to-[#c63d3d] text-white px-4 py-10 sm:py-12 md:py-16 relative">
+
+      {/* Back to Home Button */}
+      <a
+        href="https://amaebeauty.in/"
+        className="absolute top-4 left-4 sm:top-5 sm:left-5 md:top-6 md:left-6 flex items-center gap-2 bg-white/20 hover:bg-white/35 backdrop-blur-sm text-white font-medium rounded-full px-3 py-2 sm:px-4 sm:py-2.5 transition-all duration-200 hover:scale-105 shadow-md group"
+        aria-label="Go back to home"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-200 group-hover:-translate-x-0.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2.5}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        <span className="text-sm sm:text-base hidden sm:inline">Home</span>
+      </a>
+
       {/* Header */}
       <div className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-14 max-w-4xl w-full">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold drop-shadow-md flex flex-wrap items-center justify-center gap-2 sm:gap-3 md:gap-4 leading-tight">

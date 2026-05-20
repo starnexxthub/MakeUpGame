@@ -63,12 +63,15 @@ export default function EasyGame() {
       const [first, second] = newSelected;
 
       if (first.value === second.value) {
-        setPairs((p) => p + 1);
-        setCards((prev) =>
-          prev.map((c) => (c.value === first.value ? { ...c, matched: true } : c))
-        );
-        setCurrentTip(beautyTips[first.value]);
-        setShowTip(true);
+  setPairs((p) => p + 1);
+  setCards((prev) =>
+    prev.map((c) => (c.value === first.value ? { ...c, matched: true } : c))
+  );
+  setSelected([]);
+  setTimeout(() => {
+    setCurrentTip(beautyTips[first.value]);
+    setShowTip(true);
+  }, 600);
         setSelected([]);
       } else {
         setTimeout(() => {
@@ -157,7 +160,7 @@ export default function EasyGame() {
 
       {/* Win Banner */}
       {isGameWon && (
-        <div className="mt-8 sm:mt-10 md:mt-12 w-full max-w-2xl lg:max-w-4xl xl:max-w-5xl bg-green-500 rounded-2xl p-4 sm:p-5 md:p-6 text-center shadow-lg">
+        <div className="mt-8 sm:mt-10 md:mt-12 w-full max-w-2xl lg:max-w-4xl xl:max-w-5xl bg-gradient-to-br from-[#0f0a0a] via-[#2b1416] to-[#7a1f1f] rounded-2xl p-4 sm:p-5 md:p-6 text-center shadow-lg">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white flex items-center justify-center gap-2">
             🎉 Congratulations! 🎉
           </h2>
