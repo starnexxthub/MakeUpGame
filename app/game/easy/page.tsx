@@ -160,23 +160,23 @@ export default function EasyGame() {
 
       {/* Win Banner */}
       {isGameWon && (
-        <div className="mt-8 sm:mt-10 md:mt-12 w-full max-w-2xl lg:max-w-4xl xl:max-w-5xl bg-gradient-to-br from-[#0f0a0a] via-[#2b1416] to-[#7a1f1f] rounded-2xl p-4 sm:p-5 md:p-6 text-center shadow-lg">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white flex items-center justify-center gap-2">
+        <div className="mt-8 sm:mt-10 md:mt-12 w-full max-w-2xl lg:max-w-4xl xl:max-w-5xl bg-white rounded-2xl p-4 sm:p-5 md:p-6 text-center shadow-lg">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-red-500 flex items-center justify-center gap-2">
             🎉 Congratulations! 🎉
           </h2>
-          <p className="text-white mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
+          <p className="text-red-500 mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
             You completed the game in {moves} moves and {formatTime(time)}!
           </p>
           <div className="flex justify-center gap-3 sm:gap-4 mt-4 sm:mt-5 md:mt-6">
             <button
               onClick={resetGame}
-              className="bg-white text-green-600 px-4 sm:px-5 py-1.5 sm:py-2 rounded-lg font-medium shadow text-sm sm:text-base md:text-lg"
+              className="bg-gradient-to-br from-[#f2b4a9] via-[#e48f86] to-[#c63d3d] text-white px-4 sm:px-5 py-1.5 sm:py-2 rounded-lg font-medium shadow text-sm sm:text-base md:text-lg"
             >
               Play Again
             </button>
             <button
               onClick={() => router.push("/")}
-              className="bg-green-400 text-white px-4 sm:px-5 py-1.5 sm:py-2 rounded-lg font-medium shadow text-sm sm:text-base md:text-lg"
+              className="bg-gradient-to-br from-[#f2b4a9] via-[#e48f86] to-[#c63d3d] text-white px-4 sm:px-5 py-1.5 sm:py-2 rounded-lg font-medium shadow text-sm sm:text-base md:text-lg"
             >
               Change Difficulty
             </button>
